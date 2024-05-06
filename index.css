@@ -1,0 +1,146 @@
+/* Default styles for larger screens */
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 30vh;
+  }
+}
+
+
+
+.team4 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+    color: #3e4555;
+  }
+  
+  .team4 .font-weight-medium {
+      font-weight: 500;
+  }
+  
+  .team4 h5 {
+      line-height: 22px;
+      font-size: 18px;
+  }
+  
+  .team4 .subtitle {
+      color: #8d97ad;
+      line-height: 24px;
+          font-size: 13px;
+  }
+  
+  
+  /* design-1 end */
+  
+  
+  .team1 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .team1 h1, .team1 h2, .team1 h3, .team1 h4, .team1 h5, .team1 h6 {
+    color: #3e4555;
+  }
+  
+  .team1 .font-weight-medium {
+      font-weight: 500;
+  }
+  
+  .team1 .bg-light {
+      background-color: #f4f8fa !important;
+  }
+  
+  .team1 .subtitle {
+      color: #8d97ad;
+      line-height: 24px;
+  }
+  
+  .team1 .pro-pic {
+    min-height: 250px;
+  }
+  
+  .team1 .pro-pic .card-img-overlay {
+    background: rgba(26, 139, 243, 0.87);
+    display: none;
+  }
+  
+  
+  /* design-1end */
+  /* design2  start */
+  .bg-white {
+      height: 300px; /* Adjust the height as needed */
+  }
+  /* design2 end */
+  /* design3  start */
+  
+  
+  .team-section{
+    background: #ffffff;
+    text-align: center;
+  }
+  .inner-width{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: #333;
+    overflow: hidden;
+  }
+  .incharge,.support, .team-section h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+  }
+  .pe{
+    float: left;
+    width: calc(100% / 3);
+    overflow: hidden;
+    padding: 40px 0;
+    transition: 0.4s;
+  }
+
+  @media screen and (max-width: 736px) {
+    .pe {
+      width: 100%;
+    }
+  }
+  
+  
+  .pe:hover{
+    background: #ddd;
+  }
+  .pe img{
+    width: 120px;
+    height: 120px;
+  }
+  
+  
+  
+  
+  @media screen and (max-width:600px) {
+    .pe{
+      width: 100%;
+    }
+  }
+  
+  
+  .senior {
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
